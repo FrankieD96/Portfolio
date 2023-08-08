@@ -34,13 +34,14 @@ a:hover {
 }
 
 section {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 auto;
   
 }
 
-.main-section {
+.index-main-section {
   height: 720px;
   font-family: 'Quicksand', sans-serif;
   padding-top: 75px;
@@ -120,6 +121,23 @@ section {
   font-size: x-large;
 }
 
+.am-main-section {
+  height: 720px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 75px;
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+}
+
 .about-me-title {
   font-size: 0;
   display: inline-block;
@@ -162,17 +180,47 @@ section {
   --n: 5;
 }
 
-@keyframes move {
-  from {
-    opacity: 0;
-    transform: translateX(0);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(30px);
-  }
+.am-main-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+
 }
 
+.am-image {
+  max-width: 28%;
+  max-height: 28%;
+  border-radius: 50%;
+  min-width: 336px;
+  min-height: ;
+}
+
+.p1am {
+  padding-right: 5px;
+}
+
+.p2am {
+  padding-left: 5px;
+}
+
+.skills {
+  padding-top: 75px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+}
+
+.skills-title {
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.skills-list {
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
 
 .projects-title {
   font-size: 0;
@@ -280,3 +328,14 @@ section {
   --n: 7;
 }
 
+.projects-main-section {
+  height: 720px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 75px;
+}
+
+.contact-main-section {
+  height: 720px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 75px;
+}

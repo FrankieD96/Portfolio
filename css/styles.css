@@ -28,7 +28,7 @@ a:hover {
   font-size: larger;
 
 }
-.navlinks {
+.nav-links {
   display: flex;
   gap: 15px;
 }
@@ -40,42 +40,42 @@ section {
   
 }
 
-.mainsection {
+.main-section {
   height: 720px;
   font-family: 'Quicksand', sans-serif;
   padding-top: 75px;
 }
 
-.indexContent {
+.index-content {
   display: flex;
   justify-content: space-between;
   padding: 100px;
 }
 
-.indexContent2 {
+.index-content2 {
   padding-top: 30px;
 }
 
-#indexLine1 {
+#index-line1 {
   font-size: 25px;
 }
 
-#indexLine2 {
+#index-line2 {
   font-size: 35px;
 }
 
-#indexLine3 {
+#index-line3 {
   font-size: 20px;
 }
 
-.aboutMebutton {
+.about-me-button {
   font-size: 25px;
   border: solid 1px #838996;
   border-radius: 10px;
   padding: 5px 15px;
 }
 
-.meImage {
+.me-image {
   max-width: 21%;
   max-height: 21%;
   border-radius: 50px;
@@ -88,13 +88,13 @@ section {
   0 0 80px rgba(0,0,0,0.1);
 }
 
-.projectsButtonBox {
+.projects-button-box {
   width: 100%;
   text-align: center;
   padding-top: 20px;
 }
 
-.projectsButton {
+.projects-button {
   font-size: 30px;
   border: solid 1px #838996;
   padding: 5px 25px;

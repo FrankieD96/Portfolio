@@ -339,3 +339,25 @@ section {
   font-family: 'Quicksand', sans-serif;
   padding-top: 75px;
 }
+
+.contact-boxes {
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+  align-content: flex-start;
+  font-size: 40px;
+  padding-top: 100px;
+ 
+}
+
+.email-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

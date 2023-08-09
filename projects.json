@@ -1,0 +1,29 @@
+{
+    "projects": [
+        {
+            "title": "Portfolio Website",
+            "details": "As my first solo project, I created a basic portfolio site to display some imformation about me, a link to view and download my CV, all the ways of contacting me aswell as some info about my projects. </br>This website is easily updateable as I created json data that holds all of my projects in it and used JS to fetch that data and siaply it on my projects page. This way I can easily add new projects to my page. This is my first time bulding something without any templates or designs provided.",
+            "techstack": "HTML, CSS, VanillaJS, JSON",
+            "github": "https://github.com/FrankieD96/Portfolio"
+        },
+        {
+            "title": "Project 2",
+            "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quas nulla consequatur earum temporibus distinctio nam delectus error iusto quos? Quisquam natus dolores qui, possimus veniam officia animi saepe laborum?",
+            "techstack": "HTML, CSS, VanillaJS, JSON",
+            "github": "https://github.com/FrankieD96"
+        },
+        {
+            "title": "Project 3",
+            "details":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quas nulla consequatur earum temporibus distinctio nam delectus error iusto quos? Quisquam natus dolores qui, possimus veniam officia animi saepe laborum?",
+            "techstack":"HTML, CSS, VanillaJS, JSON",
+            "github": "https://github.com/FrankieD96"
+        },
+        {
+            "title": "Project 4",
+            "details":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quas nulla consequatur earum temporibus distinctio nam delectus error iusto quos? Quisquam natus dolores qui, possimus veniam officia animi saepe laborum?",
+            "techstack":"HTML, CSS, React, SQL",
+            "github": "https://github.com/FrankieD96"
+        }
+        
+    ]
+}

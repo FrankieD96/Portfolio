@@ -42,6 +42,7 @@ section {
   padding: 0 auto;
   
 }
+/* Index page */
 
 .index-main-section {
   height: 720px;
@@ -123,11 +124,15 @@ section {
   font-size: x-large;
 }
 
+/*  About Me page */
+
 .am-main-section {
   height: 720px;
   font-family: 'Quicksand', sans-serif;
   padding-top: 75px;
 }
+
+/* animation function */
 
 @keyframes move {
   from {
@@ -194,7 +199,7 @@ section {
   max-height: 28%;
   border-radius: 50%;
   min-width: 336px;
-  min-height: ;
+  height: auto;
 }
 
 .p1am {
@@ -223,6 +228,12 @@ section {
   -webkit-columns: 4;
   -moz-columns: 4;
 }
+
+.skills-list ul {
+  margin: 0;
+}
+
+/*  Projects Page */
 
 .projects-title {
   font-size: 0;
@@ -278,6 +289,8 @@ section {
 .projects-title>*:nth-child(8) {
   --n: 8;
 }
+
+/* Contact Page */
 
 .contact-title {
   font-size: 0;
@@ -364,30 +377,43 @@ section {
   justify-content: space-between;
 }
 
+/*  More projects page */
+
 .projects-flexbox {
   display: flex;
   justify-content: space-evenly;
   font-size: 45px;
   margin: auto;
-  padding-top: 20%;
-
+  padding-top: 20px;
+  height: auto;
+  width: auto;
+  
 
 }
-.project1 {
+.project {
   border: solid 1px #838996;
   border-radius: 10px;
   padding: 30px;
+  transition: all 1.5s;
+  z-index: 2;
+  bottom: 0;
+  overflow: hidden;
+  height: 100px;
+  width: 800px;
+  margin: 15px;
+  text-align: center;
+  
+  
 }
 
-.project2 {
-  border: solid 1px #838996;
-  border-radius: 10px;
-  padding: 30px;
+.project:hover {
+  border-color: #32174d;
+  height: 300px; 
+  width: 800px;
 
 }
 
-.project3 {
-  border: solid 1px #838996;
-  border-radius: 10px;
-  padding: 30px;
+.project-info {
+  font-size: 15px;
 }
+

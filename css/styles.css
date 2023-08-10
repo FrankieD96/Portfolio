@@ -43,17 +43,7 @@ a:hover {
   
 }
 
-@media screen and (max-width: 750px) {
-  .nav-links {
-    display: none;
-  }
-  .nav-links-mobile {
-    display: block;
-    text-align: center;
-
-  }
-}
-
+/* Hamburger menu for mobile */
 
 .hamburger1 {
   height: 45px;
@@ -99,7 +89,6 @@ a:hover {
 
 #toggle1:checked ~ .menu1 {
   height: 175px;
-
 }
 
 .menu1 {
@@ -112,7 +101,6 @@ a:hover {
   padding: 0;
   list-style: none;
   clear: both;
-  width: auto;
   text-align: center;
   height: 0px;
   overflow: hidden;
@@ -143,6 +131,8 @@ a:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+/* index page */
 
 section {
   width: 90%;
@@ -533,7 +523,7 @@ section {
 
 .project:hover {
   border-color: #32174d;
-  height: 500px; 
+  height: 550px; 
   width: 1200px;
   
   
@@ -550,3 +540,67 @@ section {
   
 }
 
+@media screen and (max-width: 750px) {
+  .nav-links {
+    display: none;
+  }
+  .navbar {
+    position: fixed;
+    width: 100%;
+    
+  }
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+
+  }
+  .me-image {
+    display: none;
+  }
+  .index-main-section{
+    padding-top: 50px;
+    text-align: center;
+    height: 670px;
+  }
+  .index-content {
+    padding: 15px 20px;
+  }
+  #index-line2 {
+    margin: 60px auto;
+  }
+  #index-line3{
+    margin: 60px auto;
+  }
+  .projects-button-box {
+    padding-top: 50px;
+  }
+  .am-main-section {
+    padding-top: 100px;
+  }
+  .am-main-content {
+    flex-direction: column;
+  }
+  .skills {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .skills-list {
+    columns: 2;
+  }
+  .contact-main-section {
+    padding-top: 100px;
+  }
+  .contact-boxes {
+    flex-direction: column;
+    padding-top: 75px;
+    gap: 50px;
+    font-size: 25px;
+  }
+  .email-phone {
+    gap: 50px;
+  }
+  .socials {
+    gap: 50px;
+  }
+
+} 

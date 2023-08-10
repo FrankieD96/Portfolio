@@ -33,14 +33,11 @@ a:hover {
 .nav-links {
   display: flex;
   gap: 15px;
-  text-align: center;
 }
 
 .nav-links-mobile{
   height: 100%;
   display: none;
-  text-align: center;
-  
 }
 
 /* Hamburger menu for mobile */
@@ -98,7 +95,6 @@ a:hover {
   display: grid;
   grid-template-rows: 1fr repeat(4, 0.5fr);
   grid-row-gap: 25px;
-  padding: 0;
   list-style: none;
   clear: both;
   text-align: center;
@@ -121,7 +117,7 @@ a:hover {
 .link1 {
   width: 100%;
   margin: 0;
-  padding: 10px 0;
+  padding: 10px ;
   font-family: 'Quicksand', sans-serif
 }
 
@@ -138,8 +134,6 @@ section {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 auto;
-  
 }
 
 .index-main-section {
@@ -155,19 +149,19 @@ section {
   padding: 100px;
 }
 
-.index-content2 {
+.index-text-content {
   padding-top: 30px;
 }
 
-#index-line1 {
+.index-line1 {
   font-size: 25px;
 }
 
-#index-line2 {
+.index-line2 {
   font-size: 35px;
 }
 
-#index-line3 {
+.index-line3 {
   font-size: 20px;
 }
 
@@ -317,13 +311,10 @@ section {
   height: auto;
 }
 
-.p1am {
+.about-me-paragraph {
   padding-right: 5px;
 }
 
-.p2am {
-  padding-left: 5px;
-}
 
 .skills {
   padding-top: 75px;
@@ -485,17 +476,13 @@ section {
  
 }
 
-.email-phone {
+.contact-links {
   display: flex;
   flex-direction: column;
   justify-content: space-between
 }
 
-.socials {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 
 /*  More projects page */
 
@@ -504,10 +491,6 @@ section {
   justify-content: space-evenly;
   margin: auto;
   padding-top: 20px;
-  height: auto;
-  width: auto;
-  
-
 }
 .project {
   border: solid 1px #838996;
@@ -578,7 +561,7 @@ section {
 }
 
 
-.mob-projects .button:visited. .button:active {
+.mob-projects, .button:hover, .button:visited, .button:active {
   color: #32174d;
 }
 
@@ -608,10 +591,10 @@ section {
   .index-content {
     padding: 15px 20px;
   }
-  #index-line2 {
+  .index-line2 {
     margin: 60px auto;
   }
-  #index-line3{
+  .index-line3{
     margin: 60px auto;
   }
   .projects-button-box {
@@ -650,11 +633,8 @@ section {
     gap: 50px;
     font-size: 25px;
   }
-  .email-phone {
+  .contact-links {
     gap: 50px;
   }
-  .socials {
-    gap: 50px;
-  }
-
+ 
 } 

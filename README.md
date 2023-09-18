@@ -11,7 +11,7 @@
 
 <h3>Overview</h3>
 <p>
-    This portfolio showcases my initial projects crafted during my studies at iO Academy. A culmination of my learning journey, this portfolio reflects my dedication to understanding the intricacies of web development and my growth as a developer.
+    This portfolio showcases my initial projects built during my studies at iO Academy.
 </p>
 
 <h3>Technologies Used:</h3>

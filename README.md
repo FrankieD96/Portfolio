@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Project Description</title>
+    Portfolio Project Description
 </head>
 <body>
 
@@ -12,6 +12,7 @@
 <h3>Overview</h3>
 <p>
     This portfolio showcases my initial projects built during my studies at iO Academy.
+    Live Portfolio site: (https://frankied96.github.io/Portfolio/)
 </p>
 
 <h3>Technologies Used:</h3>

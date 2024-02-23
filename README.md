@@ -12,7 +12,7 @@
 <h3>Overview</h3>
 <p>
     This portfolio showcases my initial projects built during my studies at iO Academy.
-    Link: <a>https://frankied96.github.io/Portfolio/</a>
+    Link: [https://frankied96.github.io/Portfolio/](https://frankied96.github.io/Portfolio/)
 </p>
 
 <h3>Technologies Used:</h3>

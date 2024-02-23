@@ -7,16 +7,16 @@
             "github": "https://github.com/FrankieD96/Portfolio"
         },
         {
-            "title": "React App",
+            "title": "BookSwap Frontend",
             "details": "Communal bookshelf web platform built in a dev team of 5. This project was built using React for the frontend while seamlessly integrating with a prebuilt backend API. The platform offers features such as book claims, returns, reviews, and inventory management. We utilized Git for efficient version control and agile methodologies to guide our development process. Each feature or 'user story' was meticulously reviewed by peers and then by our trainer, ensuring both quality and alignment with the project's goals.",
             "techstack": "React, HTML, CSS, Git, Agile",
-            "github": "https://github.com/FrankieD96"
+            "github": "https://github.com/iO-Academy/23-aye-ayeO-book-swap-fe"
         },
         {
-            "title": "PHP App",
-            "details":"Currently working on a solo project using PHP and MySQL. I'm building a collection app to display and interact with a collection of football shirts using a relational database I built myself. The purpose of this project is to hone my general PHP and Database skills before moving on to a project using Laravel.",
-            "techstack":"PHP, MySQL, git, agile",
-            "github": "https://github.com/FrankieD96"
+            "title": "BookSwap API",
+            "details":"Backend RESTful API built in a dev team of 5. We used a TDD approach for this project, using PHPUnit to write integration tests. We were given documentation that we had to make sure out API matched so that it would work correctly with the front-end we had now built.",
+            "techstack":"PHP, Laravel, MySQL, git, Postman, agile",
+            "github": "https://github.com/iO-Academy/23-aye-ayeO-book-swap-api"
         }
     
         

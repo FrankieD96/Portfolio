@@ -14,7 +14,7 @@
         },
         {
             "title": "BookSwap API",
-            "details":"Backend RESTful API built in a dev team of 5. We used a TDD approach for this project, using PHPUnit to write integration tests. We were given documentation that we had to make sure out API matched so that it would work correctly with the front-end we had now built.",
+            "details":"Backend RESTful API built in a dev team of 5 using a mixture of induvidual and pair programming. We used a TDD approach for this project, using PHPUnit to write integration tests. We were given documentation that we had to make sure out API matched so that it would work correctly with the front-end we had now built.",
             "techstack":"PHP, Laravel, MySQL, git, Postman, agile",
             "github": "https://github.com/iO-Academy/23-aye-ayeO-book-swap-api"
         }
